@@ -1,31 +1,60 @@
-## Tranco List
+# Tranco Top 1 Million List
 
-This folder contains the Tranco top-sites ranking used as an auxiliary reference in this project.
+This directory contains the Tranco Top 1 Million domain list used as an auxiliary input in the controlled generation of benign DNS and DNS over HTTPS traffic for the UFU-Do53-EXF and UFU-DoH-EXF datasets.
 
-Tranco is a research-oriented top-sites ranking designed to provide a more reliable and manipulation-resistant alternative to traditional website popularity lists. It was proposed in the paper *Tranco: A Research-Oriented Top Sites Ranking Hardened Against Manipulation* and is made available through the official Tranco service.
+The Tranco ranking is a research-oriented top-sites list designed to provide a more stable and manipulation-resistant alternative to traditional website popularity rankings.
 
-In this project, the Tranco list is used only as an auxiliary resource for domain-based analysis, benign-domain comparison, filtering strategies and future feature engineering.
+The list was used to define a documented and repeatable source of domain names for the benign traffic-generation scenarios.
 
-## Possible Uses
+---
 
-The Tranco list can support:
+# Directory contents
 
-- identification of popular domains in benign DNS traffic;
-- comparison between queried domains and well-known domains;
-- filtering or marking domains that appear in a popularity ranking;
-- enrichment of DNS-based features;
-- analysis of suspicious, random-looking or low-popularity domains;
-- future experiments involving domain popularity as an additional feature.
+```text
+scripts/Tranco List/
+├── top-1m.csv
+└── README.md
+```
 
-## Citation
+## `top-1m.csv`
 
-If you use this resource in academic work, cite the original Tranco paper:
+The file contains:
 
-```bibtex
-@inproceedings{lepochat2019tranco,
-  title     = {Tranco: A Research-Oriented Top Sites Ranking Hardened Against Manipulation},
-  author    = {Le Pochat, Victor and Van Goethem, Tom and Tajalizadehkhoob, Samaneh and Korczy{\'n}ski, Maciej and Joosen, Wouter},
-  booktitle = {Proceedings of the 26th Annual Network and Distributed System Security Symposium (NDSS 2019)},
-  year      = {2019},
-  doi       = {10.14722/ndss.2019.23386}
-}
+- 1,000,000 domain names;
+- one domain per row;
+- no header row;
+- one text column;
+- domains ordered according to the corresponding Tranco ranking.
+
+Example:
+
+```text
+google.com
+mail.ru
+microsoft.com
+facebook.com
+apple.com
+```
+
+---
+
+# Role in the dataset methodology
+
+The Tranco list was used to support the controlled generation of benign traffic for both datasets:
+
+- **UFU-Do53-EXF**, using conventional DNS queries;
+- **UFU-DoH-EXF**, using DNS over HTTPS requests.
+
+The use of a documented ranking reduces arbitrary domain selection and improves the repeatability of the benign traffic-generation procedure.
+
+The list was not used as a security reputation database.
+
+A domain appearing in Tranco must not automatically be interpreted as:
+
+- benign;
+- trustworthy;
+- safe;
+- free of malicious content;
+- suitable for unrestricted access.
+
+The ranking is based primarily on popularity and ranking methodology, not on cybersecurity reputation.

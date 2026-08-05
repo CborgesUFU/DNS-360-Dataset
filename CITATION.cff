@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use these datasets or scripts, please cite the associated paper."
+title: "UFU-Do53-EXF and UFU-DoH-EXF"
+type: dataset
+
+authors:
+  - family-names: "Borges"
+    given-names: "Cristiano L. M."
+  - family-names: "Miani"
+    given-names: "Rodrigo S."
+
+abstract: >-
+  UFU-Do53-EXF and UFU-DoH-EXF are complementary datasets designed
+  for detecting data exfiltration over conventional DNS and DNS over
+  HTTPS. The repository includes structured CSV data, packet captures,
+  PCAP-to-Flow processing scripts, and supervised machine-learning
+  baseline experiments.
+
+repository-code: "https://github.com/CborgesUFU/DNS-360-Dataset"
+
+keywords:
+  - DNS
+  - DNS over HTTPS
+  - DoH
+  - data exfiltration
+  - DNS tunneling
+  - cybersecurity
+  - network security
+  - machine learning
+  - packet capture
+  - dataset
+
+license: "CC-BY-NC-4.0"
+
+version: "1.0.0"
+date-released: "2026-08-01"
