@@ -1,0 +1,11 @@
+dpkt==1.9.8
+numpy==2.4.2
+pandas==3.0.0
+scikit-learn==1.8.0
+xgboost==3.1.3
+matplotlib==3.10.8
+shap==0.50.0
+openpyxl==3.1.5
+psutil==7.2.2
+tqdm==4.67.2
+joblib==1.5.3

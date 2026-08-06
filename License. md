@@ -1,0 +1,78 @@
+UFU-Do53-EXF AND UFU-DoH-EXF
+DATASET AND RESEARCH ARTIFACT LICENSE
+
+Copyright (c) 2026
+Cristiano L. M. Borges
+Rodrigo S. Miani
+
+DATASET LICENSE
+===============
+
+The UFU-Do53-EXF and UFU-DoH-EXF datasets, including the CSV files,
+packet captures, dataset documentation, and associated metadata, are
+made available under the Creative Commons Attribution-NonCommercial
+4.0 International License, CC BY-NC 4.0.
+
+Under this license, users may share and adapt the material provided that:
+
+1. appropriate credit is given to the authors;
+2. a reference to the associated research paper is included;
+3. any modifications are clearly identified;
+4. the material is not used for commercial purposes;
+5. no additional legal or technological restrictions are applied that
+   prevent others from exercising the rights granted by the license.
+
+SOURCE-CODE TERMS
+=================
+
+The Python source code included in the scripts directory is made
+available for academic, educational, and non-commercial research use.
+
+Users may inspect, execute, modify, and redistribute the source code for
+those purposes, provided that:
+
+1. appropriate attribution is maintained;
+2. modifications are clearly identified;
+3. the original authors are not represented as endorsing modified
+   versions;
+4. the source code is not used to conduct unauthorized activity.
+
+SECURITY AND ACCEPTABLE USE
+===========================
+
+The repository contains packet captures, procedures, and source code
+related to controlled data-exfiltration experiments.
+
+These materials must only be used:
+
+1. in isolated and controlled laboratory environments;
+2. on systems owned by the user or for which explicit authorization has
+   been granted;
+3. for legitimate research, educational, or defensive cybersecurity
+   purposes;
+4. with synthetic or non-sensitive data.
+
+The materials must not be used:
+
+1. to access systems without authorization;
+2. to exfiltrate real, personal, confidential, or proprietary data;
+3. to attack, disrupt, test, or probe third-party infrastructure without
+   explicit authorization;
+4. to evade monitoring or security controls in an unauthorized context;
+5. on production networks unless formally approved and appropriately
+   isolated.
+
+DISCLAIMER
+==========
+
+THE DATASETS, PACKET CAPTURES, SOURCE CODE, DOCUMENTATION, AND OTHER
+MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED.
+
+THE AUTHORS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGE, LOSS, OR OTHER
+LIABILITY ARISING FROM THE USE, MISUSE, EXECUTION, MODIFICATION, OR
+DISTRIBUTION OF THE MATERIALS.
+
+USERS ARE SOLELY RESPONSIBLE FOR ENSURING THAT THEIR USE OF THE
+MATERIALS COMPLIES WITH APPLICABLE LAWS, REGULATIONS, INSTITUTIONAL
+POLICIES, CLOUD-PROVIDER POLICIES, AND THIRD-PARTY LICENSES.
